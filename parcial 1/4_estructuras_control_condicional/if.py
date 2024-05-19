@@ -70,11 +70,11 @@ elif Dia==3:
     print("hoy es miercoles")
 elif Dia==4:
     print("hoy es jueves")
-elif color==5:
+elif Dia==5:
     print("hoy es viernes")
 elif Dia==6:
     print("hoy es sabado")
-elif color==7:
+elif Dia==7:
     print("hoy es domingo")
 else:
     print("No soy ningun de los dias anteriores")
