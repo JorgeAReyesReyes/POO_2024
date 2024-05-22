@@ -4,14 +4,8 @@
 
 #if simple
 #if comuesto
-
-
-
-
-
-
-
-
+#if anidado
+#if y elif
 
 #ejemplo 1 if simple
 
@@ -38,7 +32,7 @@
 # else:
 #     print("No soy el color rojo soy otra cosa")
     
-# #ejemplo 4 if y elif
+ #ejemplo 4 if y elif
 
 # color=input("Ingresa un color: ")
 
