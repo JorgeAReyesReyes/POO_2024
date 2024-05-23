@@ -1,23 +1,21 @@
 # Crear un programa que solicite la calificacion de 15 alumnos e 
 # imprimir en pantalla cuantos aproboron y cuantos no aprobaron
-i=0
-n =0
 
+nota = 0
+aprobados = 0
+reprobados = 0
 
-for i in range(1,4):
-    n=0
-    n=input("solicitar calificacion: ") 
-aprobado=0
-reprobado=0 
-if int(n)<=80:
-        (int(n)+1)
-        reprobado=n
-if int(n)>=80:
-        (int(n)+1)
-        aprobado=n
-text2=str("cantidad de aprobados: ")
-print=(text2)
-print=int(aprobado)
-text2=str("cantidad de reprobados")
-print=text2
-print=int(reprobado)
+input_scanner = input
+
+for i in range(0,15):
+    print(f"Nota del alumno No. {i+1} : ", end="")
+    nota = float(input_scanner())
+    
+    if 1 <= nota < 80.0:
+        reprobados += 1
+    elif 3 <= nota >=80:
+        aprobados += 1
+
+print("\nAlumnos reprobados:", reprobados)
+print("Alumnos aprobados:", aprobados)
+
